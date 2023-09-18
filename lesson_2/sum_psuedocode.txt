@@ -1,0 +1,7 @@
+START
+
+# Given two numbers called "number1" and "number2"
+
+SET sum = the sum of number1 and number2
+
+PRINT sum

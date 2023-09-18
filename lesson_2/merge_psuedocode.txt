@@ -1,0 +1,15 @@
+START
+
+# Given two arrays called "array1" and "array2"
+
+SET final_array = [] (empty array)
+
+SET index = 0
+
+WHILE index < the length of array1
+  add the item at the index of array1 to final_array
+  add the item at the index of array2 to final_array
+  index = index + 1
+
+
+PRINT final_array

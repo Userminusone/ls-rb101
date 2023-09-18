@@ -1,0 +1,17 @@
+START
+
+# Given two strings called "string" and "character"
+
+SET character_count = 0
+
+SET index = 0
+
+WHILE index < the length of string
+  IF character at the index of the string is equal to character
+    character_count = character_count + 1
+  IF character_count is equal to 3
+    PRINT index
+  index = index + 1
+
+
+PRINT nil

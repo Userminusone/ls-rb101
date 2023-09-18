@@ -1,0 +1,14 @@
+START
+
+# Given an array of objects called "array"
+
+SET final_array = [] (empty array)
+
+SET index = 0
+
+WHILE index < length of array
+  add the item at the index of array to the end of final_array if the index is even
+  index = index + 1
+
+
+PRINT final_array

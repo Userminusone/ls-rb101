@@ -1,0 +1,14 @@
+START
+
+# Given an array of strings called "strings"
+
+SET final_string = "" (an empty string)
+
+SET index = 0
+
+WHILE index < length of strings
+  concatenate the string at the index of the strings array to the end of final_string
+  index = index + 1
+
+
+PRINT final_string
